@@ -1,5 +1,7 @@
 export type UserType = {
     picture: string;
-    firstName: string;
-    lastName: string;
+    name: string;
+    age: number;
+    token: string;
+    uuid: string;
 }
